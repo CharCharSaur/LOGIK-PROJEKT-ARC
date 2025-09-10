@@ -11,9 +11,9 @@
     "Default OCIO Config: ": "flame_configs/2026.0/aces2.0_config",
     "Default OCIO Path: ": "/opt/Autodesk/colour_mgmt/configs/flame_configs/2026.0/aces2.0_config/config.ocio",
     "Default OCIO Name: ": "ACES 2.0",
-    "Default Cache Integer: ": "Uncompressed (DPX)",
-    "Default Cache Integer ID: ": "2",
-    "Default Cache Float: ": "OpenEXR (DWAB)",
-    "Default Cache Float ID: ": "1185912",
+    "Default Cache Integer: ": "Apple ProRes 4444 XQ",
+    "Default Cache Integer ID: ": "65797",
+    "Default Cache Float: ": "OpenEXR (PIZ)",
+    "Default Cache Float ID: ": "596088",
     "Default Logik Projekt Config": "logik-projekt"
 }
