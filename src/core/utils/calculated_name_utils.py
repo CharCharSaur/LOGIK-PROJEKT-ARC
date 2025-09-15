@@ -64,7 +64,7 @@ def get_calculated_name(serial: str, client: str, campaign: str) -> str:
 
     # --- RECIPE 1: Serial, lowercase client, lowercase campaign ---
     # This is the default.
-    calculated_name = f"{s_serial}_{s_client.lower()}_{s_campaign.lower()}"
+    calculated_name = f"{s_serial}_{s_campaign.lower()}_{s_client.lower()}"
 
     # --- RECIPE 2: Serial, UPPERCASE client, UPPERCASE campaign ---
     # To use this recipe, remove the '#' from the line below and add a '#'

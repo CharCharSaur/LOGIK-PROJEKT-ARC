@@ -51,7 +51,7 @@ if __name__ == '__main__':
     # You might need to adjust the path depending on your execution context
     workspace_file_path = os.path.join(
         os.path.dirname(__file__),
-        '../../../../pref/site-prefs/default-prefs/logik-projekt-prefs/flame-workspace.json'
+        '../../../../pref/site-prefs/custom-prefs/arc_com_FileSystemTemplate_v01_02/flame-workspace.json'
     )
     modify_workspace_colors(os.path.normpath(workspace_file_path))
 
