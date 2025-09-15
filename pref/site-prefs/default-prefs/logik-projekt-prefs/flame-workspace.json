@@ -1,5 +1,4 @@
 [
-
     {
         "type": "desktop",
         "name_template": "{date}-{user}"
@@ -10,37 +9,65 @@
             {
                 "type": "reel_group",
                 "name": "{date}-conform",
-                "colour": [0.194, 0.159, 0.270],
+                "colour": [
+                    0.194,
+                    0.159,
+                    0.27
+                ],
                 "reels": [
                     {
                         "type": "reel",
                         "name": "ref",
-                        "colour": [0.094, 0.131, 0.200]
+                        "colour": [
+                            0.094,
+                            0.131,
+                            0.2
+                        ]
                     },
                     {
                         "type": "reel",
                         "name": "Sources",
-                        "colour": [0.057, 0.131, 0.088]
+                        "colour": [
+                            0.057,
+                            0.131,
+                            0.088
+                        ]
                     },
                     {
                         "type": "reel",
                         "name": "Sequences",
-                        "colour": [0.188, 0.023, 0.023]
+                        "colour": [
+                            0.188,
+                            0.023,
+                            0.023
+                        ]
                     },
                     {
                         "type": "reel",
                         "name": "Published-Sequences",
-                        "colour": [0.376, 0.047, 0.047]
+                        "colour": [
+                            0.376,
+                            0.047,
+                            0.047
+                        ]
                     },
                     {
                         "type": "reel",
                         "name": "Published-Versions",
-                        "colour": [0.114, 0.263, 0.176]
+                        "colour": [
+                            0.114,
+                            0.263,
+                            0.176
+                        ]
                     },
                     {
                         "type": "reel",
                         "name": "{date}-postings",
-                        "colour": [0.188, 0.263, 0.400]
+                        "colour": [
+                            0.188,
+                            0.263,
+                            0.4
+                        ]
                     }
                 ]
             }
