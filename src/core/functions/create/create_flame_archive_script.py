@@ -145,6 +145,25 @@ def create_flame_archive_script(projekt_summary_data: dict):
         f"{tgt_projekt_archive_script}"
     )
 
+    tgt_projekt_archive_script_command = f"{os.path.splitext(tgt_projekt_archive_script)[0]}.command"
+
+    os.makedirs(
+        os.path.dirname(tgt_projekt_archive_script_command),
+        exist_ok=True
+    )
+    with open(tgt_projekt_archive_script_command, 'w') as f:
+        f.write(template_content)
+
+    os.chmod(
+        tgt_projekt_archive_script_command,
+        0o755
+    )
+
+    logger.info(
+        f"Successfully created PROJEKT flame archive script to: "
+        f"{tgt_projekt_archive_script_command}"
+    )
+
     os.makedirs(
         os.path.dirname(tgt_projekt_archive_crontab),
         exist_ok=True
