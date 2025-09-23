@@ -1,85 +1,223 @@
 [
-  {
-    "type": "desktop",
-    "name_template": "{date}-{user}"
-  },
-  {
-    "type": "desktop_contents",
-    "items": [
-      {
-        "type": "reel_group",
-        "name": "My Reel Group",
-        "reels": [
-          {
-            "type": "reel",
-            "name": "Reel A"
-          },
-          {
-            "type": "reel",
-            "name": "Reel B",
-            "reel_type": "Sequence"
-          }
-        ]
-      },
-      {
-        "type": "batch_group",
-        "name": "My Batch Group"
-      },
-      {
-        "type": "reel",
-        "name": "My Schematic Reel",
-        "reel_type": "Schematic"
-      }
-    ]
-  },
-  {
-    "type": "library",
-    "name": "Project_Library",
-    "colour": [0.8, 0.5, 0.2],
-    "tags": ["Active", "Editorial"],
-    "expanded": true,
-    "children": [
-      {
-        "type": "folder",
-        "name": "Graphics",
-        "children": [
-          {
-            "type": "reel",
-            "name": "Elements"
-          },
-          {
-            "type": "reel",
-            "name": "Renders"
-          }
-        ]
-      },
-      {
-        "type": "folder",
-        "name": "Plates"
-      },
-      {
-        "type": "folder",
-        "name": "Delivery",
-        "children": [
-          {
-            "type": "reel_group",
-            "name": "Masters",
-            "reel_names": ["Master_v1", "Master_v2", "Master_v3"]
-          }
-        ]
-      },
-      {
-        "type": "reel_group",
-        "name": "Timelines"
-      },
-      {
-        "type": "reel",
-        "name": "Timeline_Reel"
-      }
-    ]
-  },
-  {
-    "type": "library",
-    "name": "Archives"
-  }
+	{
+		"type": "desktop",
+		"name_template": "{date}-{user}"
+	},
+	{
+		"type": "desktop_contents",
+		"items": [
+			{
+				"type": "reel_group",
+				"name": "{date}-conform",
+				"reels": [
+					{
+						"type": "reel",
+						"name": "ref"
+					},
+					{
+						"type": "reel",
+						"name": "Sources"
+					},
+					{
+						"type": "reel",
+						"name": "Conform_Sequences",
+						"colour": [0.448, 0.252, 0.252]
+					},
+					{
+						"type": "reel",
+						"name": "Published_Sequences",
+						"colour": [0.057, 0.383, 0.182]
+					},
+					{
+						"type": "reel",
+						"name": "Published_Versions",
+						"colour": [0.418, 0.262, 0.384]
+					}
+				]
+			},
+			{
+				"type": "batch_group",
+				"name": "Batch"
+			}
+		]
+	},
+	{
+		"type": "library",
+		"name": "assets",
+		"colour": [0.057, 0.367, 0.383],
+		"tags": ["Custom"],
+		"expanded": true,
+		"children": [
+			{
+				"type": "folder",
+				"name": "artwork"
+			},
+			{
+				"type": "folder",
+				"name": "audio"
+			},
+			{
+				"type": "folder",
+				"name": "cg"
+			},
+			{
+				"type": "folder",
+				"name": "colour"
+			},
+			{
+				"type": "folder",
+				"name": "dmp"
+			},
+			{
+				"type": "folder",
+				"name": "font"
+			},
+			{
+				"type": "folder",
+				"name": "gfx",
+				"children": [
+					{
+						"type": "folder",
+						"name": "supers"
+					},
+					{
+						"type": "folder",
+						"name": "titles"
+					}
+				]
+			},
+			{
+				"type": "folder",
+				"name": "scanning"
+			},
+			{
+				"type": "folder",
+				"name": "stock"
+			},
+			{
+				"type": "folder",
+				"name": "subtitles"
+			}
+		]
+	},
+	{
+		"type": "library",
+		"name": "delivery",
+		"colour": [0.057, 0.383, 0.182],
+		"tags": ["Custom"],
+		"children": [
+			{
+				"type": "folder",
+				"name": "editorial"
+			},
+			{
+				"type": "reel_group",
+				"name": "master",
+				"reel_names": ["broadcast", "online", "socials"]
+			},
+			{
+				"type": "folder",
+				"name": "vendor"
+			}
+		]
+	},
+	{
+		"type": "library",
+		"name": "media",
+		"colour": [0.296, 0.296, 0.464],
+		"tags": ["Custom"],
+		"children": [
+			{
+				"type": "folder",
+				"name": "_staging"
+			},
+			{
+				"type": "folder",
+				"name": "edit_reference"
+			},
+			{
+				"type": "folder",
+				"name": "graded_renders"
+			},
+			{
+				"type": "folder",
+				"name": "lens_grids"
+			},
+			{
+				"type": "folder",
+				"name": "proxy"
+			},
+			{
+				"type": "folder",
+				"name": "raw"
+			},
+			{
+				"type": "folder",
+				"name": "thumbnails"
+			},
+			{
+				"type": "folder",
+				"name": "turnovers",
+				"children": [
+					{
+						"type": "folder",
+						"name": "aaf"
+					},
+					{
+						"type": "folder",
+						"name": "edl"
+					},
+					{
+						"type": "folder",
+						"name": "prep"
+					},
+					{
+						"type": "folder",
+						"name": "xml"
+					}
+				]
+			},
+			{
+				"type": "folder",
+				"name": "vendor"
+			}
+		]
+	},
+	{
+		"type": "library",
+		"name": "production",
+		"colour": [0.057, 0.367, 0.383],
+		"children": [
+			{
+				"type": "folder",
+				"name": "briefs"
+			},
+			{
+				"type": "folder",
+				"name": "docs"
+			},
+			{
+				"type": "folder",
+				"name": "reference"
+			},
+			{
+				"type": "folder",
+				"name": "scripts"
+			},
+			{
+				"type": "folder",
+				"name": "shoot"
+			}
+		]
+	},
+	{
+		"type": "library",
+		"name": "shots",
+		"colour": [0.418, 0.262, 0.384]
+	},
+	{
+		"type": "library",
+		"name": "desktops",
+		"colour": [0.448, 0.252, 0.252]
+	}
 ]
