@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "created_at": "2025-09-10T10:36:23.319868",
+    "created_by": "directory_structure_to_json",
+    "version": "1.0"
+  },
+  "source": {
+    "original_path": "/Volumes/ARC_FILM_RAID/arc_com_FileSystemTemplate_v01_02",
+    "original_name": "arc_com_FileSystemTemplate_v01_02",
+    "original_depth": 3,
+    "root_directory": "arc_com_FileSystemTemplate_v01_02"
+  },
+  "analysis": {
+    "timestamp": "2025_09_10-10_36_23",
+    "total_subdirectories": 66,
+    "processed_subdirectories": 66
+  },
+  "subdirectories": [
+    {
+      "path": "archive",
+      "name": "archive",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "archive/aftereffects",
+      "name": "aftereffects",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "archive",
+      "type": "directory"
+    },
+    {
+      "path": "archive/flame_classic",
+      "name": "flame_classic",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "archive",
+      "type": "directory"
+    },
+    {
+      "path": "archive/nuke",
+      "name": "nuke",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "archive",
+      "type": "directory"
+    },
+    {
+      "path": "archive/resolve",
+      "name": "resolve",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "archive",
+      "type": "directory"
+    },
+    {
+      "path": "assets",
+      "name": "assets",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "assets/artwork",
+      "name": "artwork",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/audio",
+      "name": "audio",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/cg",
+      "name": "cg",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour",
+      "name": "colour",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/cdl",
+      "name": "cdl",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "colour",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/flame",
+      "name": "flame",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "colour",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/flame/ctf",
+      "name": "ctf",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "flame",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/flame_export_presets",
+      "name": "flame_export_presets",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "colour",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/flame_export_presets/ctf",
+      "name": "ctf",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "flame_export_presets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/flame_export_presets/presets",
+      "name": "presets",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "flame_export_presets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/flame_export_presets/tmp_presets",
+      "name": "tmp_presets",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "flame_export_presets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/lut",
+      "name": "lut",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "colour",
+      "type": "directory"
+    },
+    {
+      "path": "assets/colour/ocio",
+      "name": "ocio",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "colour",
+      "type": "directory"
+    },
+    {
+      "path": "assets/dmp",
+      "name": "dmp",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/font",
+      "name": "font",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/gfx",
+      "name": "gfx",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/gfx/supers",
+      "name": "supers",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "gfx",
+      "type": "directory"
+    },
+    {
+      "path": "assets/gfx/titles",
+      "name": "titles",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "gfx",
+      "type": "directory"
+    },
+    {
+      "path": "assets/scanning",
+      "name": "scanning",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/stock",
+      "name": "stock",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "assets/subtitles",
+      "name": "subtitles",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "assets",
+      "type": "directory"
+    },
+    {
+      "path": "cfg",
+      "name": "cfg",
+      "depth": 1,
+      "hasChildren": false,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "delivery",
+      "name": "delivery",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "delivery/_orders",
+      "name": "_orders",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "delivery",
+      "type": "directory"
+    },
+    {
+      "path": "delivery/editorial",
+      "name": "editorial",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "delivery",
+      "type": "directory"
+    },
+    {
+      "path": "delivery/master",
+      "name": "master",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "delivery",
+      "type": "directory"
+    },
+    {
+      "path": "delivery/vendor",
+      "name": "vendor",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "delivery",
+      "type": "directory"
+    },
+    {
+      "path": "media",
+      "name": "media",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "media/_staging",
+      "name": "_staging",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "media/edit_reference",
+      "name": "edit_reference",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "media/graded_renders",
+      "name": "graded_renders",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "media/lens_grids",
+      "name": "lens_grids",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "media/proxy",
+      "name": "proxy",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "media/raw",
+      "name": "raw",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "media/thumbnails",
+      "name": "thumbnails",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers",
+      "name": "turnovers",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/aaf",
+      "name": "aaf",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "turnovers",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/editorial-projekt-files",
+      "name": "editorial-projekt-files",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "turnovers",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/editorial-projekt-files/adobe_premiere",
+      "name": "adobe_premiere",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "editorial-projekt-files",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/editorial-projekt-files/avid_media_composer",
+      "name": "avid_media_composer",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "editorial-projekt-files",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/editorial-projekt-files/davinci_resolve",
+      "name": "davinci_resolve",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "editorial-projekt-files",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/editorial-projekt-files/final_cut_pro",
+      "name": "final_cut_pro",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "editorial-projekt-files",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/edl",
+      "name": "edl",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "turnovers",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/prep",
+      "name": "prep",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "turnovers",
+      "type": "directory"
+    },
+    {
+      "path": "media/turnovers/xml",
+      "name": "xml",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "turnovers",
+      "type": "directory"
+    },
+    {
+      "path": "media/vendor",
+      "name": "vendor",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "media",
+      "type": "directory"
+    },
+    {
+      "path": "production",
+      "name": "production",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "production/briefs",
+      "name": "briefs",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "production",
+      "type": "directory"
+    },
+    {
+      "path": "production/docs",
+      "name": "docs",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "production",
+      "type": "directory"
+    },
+    {
+      "path": "production/reference",
+      "name": "reference",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "production",
+      "type": "directory"
+    },
+    {
+      "path": "production/scripts",
+      "name": "scripts",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "production",
+      "type": "directory"
+    },
+    {
+      "path": "production/shoot",
+      "name": "shoot",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "production",
+      "type": "directory"
+    },
+    {
+      "path": "production/shoot/notes",
+      "name": "notes",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "shoot",
+      "type": "directory"
+    },
+    {
+      "path": "production/shoot/photography",
+      "name": "photography",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "shoot",
+      "type": "directory"
+    },
+    {
+      "path": "production/shoot/scans",
+      "name": "scans",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "shoot",
+      "type": "directory"
+    },
+    {
+      "path": "shots",
+      "name": "shots",
+      "depth": 1,
+      "hasChildren": false,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "wip",
+      "name": "wip",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "wip/grade",
+      "name": "grade",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "wip",
+      "type": "directory"
+    },
+    {
+      "path": "wip/online",
+      "name": "online",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "wip",
+      "type": "directory"
+    },
+    {
+      "path": "wip/vendor",
+      "name": "vendor",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "wip",
+      "type": "directory"
+    },
+    {
+      "path": "wip/vfx",
+      "name": "vfx",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "wip",
+      "type": "directory"
+    }
+  ]
+}
