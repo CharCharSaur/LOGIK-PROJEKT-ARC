@@ -323,8 +323,8 @@ chmod +x $desktop_entry_file
 
 # Check the operating system and log the appropriate message
 if [[ "$(uname)" == "Linux" ]]; then
-    log_message "Moving the file to ~/.local/share/applications/"
-    mv $desktop_entry_file ~/.local/share/applications/
+    log_message "Moving the file to /usr/share/applications/"
+    mv $desktop_entry_file /usr/share/applications/
 elif [[ "	$(uname)" == "Darwin" ]]; then
     log_message "This script is not configured to move files on macOS (Darwin)."
 else
