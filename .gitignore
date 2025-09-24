@@ -175,6 +175,7 @@ docs/design_documents/learning/2025-07-24-07-09-03-projekt_summary_not_updating.
 docs/design_documents/learning/2025-07-24-08-09-51_projekt_summary_update_problems.png
 .gemini/gemini_commit_message.txt
 LOGIK-PROJEKT.desktop
+run_logikprojekt_linux.sh
 
 # Temporary session files
 pref/session-preferences/
