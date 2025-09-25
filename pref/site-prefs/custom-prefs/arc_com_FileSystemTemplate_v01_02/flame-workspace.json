@@ -213,7 +213,21 @@
 	{
 		"type": "library",
 		"name": "shots",
-		"colour": [0.418, 0.262, 0.384]
+		"colour": [0.418, 0.262, 0.384],
+		"children": [
+			{
+				"type": "folder",
+				"name": "src"
+			},
+			{
+				"type": "folder",
+				"name": "comp"
+			},
+			{
+				"type": "folder",
+				"name": "publish"
+			}
+		]
 	},
 	{
 		"type": "library",
