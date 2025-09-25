@@ -8,5 +8,8 @@ cd "$SCRIPT_DIR" || exit
 # Set PYTHONPATH to the project root
 export PYTHONPATH="$SCRIPT_DIR"
 
+# Fixing UI scaling on Rocky Linux. Default seems to be enlarged.
+export QT_SCALE_FACTOR=1.0
+
 # Run the python application as a module
 __PYTHON_EXECUTABLE__ -m src.app
