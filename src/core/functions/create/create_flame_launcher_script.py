@@ -80,9 +80,8 @@ def create_flame_launcher_script(
     os.umask(0)
 
     tgt_launcher_script = os.path.join(
-        repository_root_dir,
-        'pref',
-        'session-preferences',
+        os.path.expanduser('~'),
+        '.LOGIK-PROJEKT-ARC',
         'current_session-flame_launcher.sh'
     )
 
