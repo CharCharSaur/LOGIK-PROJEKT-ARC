@@ -91,17 +91,14 @@ def main():
     file_handler.setFormatter(formatter)
     logging.getLogger().addHandler(file_handler)
 
-    # Logic to create dirs and temp files for user session
+    # Logic to create dirs and temp files for user session. Tidy this up in future.
     logging.info("Creating user session directories and temp files.")
     user_home = os.path.expanduser("~")
     session_preferences_template_dir = "pref/session-preferences"
     session_storage_dir = os.path.join(user_home, ".LOGIK-PROJEKT-ARC")
     os.makedirs(session_storage_dir, exist_ok=True)
 
-    logging.info(f"User home directory: {user_home}. Session storage directory: {session_storage_dir}.  Session preferences template directory: {session_preferences_template_dir}.")
-
     for filename in os.listdir(session_preferences_template_dir):
-        logging.info(f"Processing file {filename}.")
         src_file = os.path.join(session_preferences_template_dir, filename)
         tgt_file = os.path.join(session_storage_dir, filename)
 
