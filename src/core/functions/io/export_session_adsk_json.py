@@ -35,7 +35,7 @@ def export_session_adsk_json(projekt_summary_data: dict):
     Exports a JSON file with a subset of the project data
     for Autodesk software.
     """
-    output_dir = "pref/session-preferences"
+    output_dir = "~/.LOGIK-PROJEKT-ARC"
     output_filename = "current_session-adsk.json"
     output_path = os.path.join(output_dir, output_filename)
 

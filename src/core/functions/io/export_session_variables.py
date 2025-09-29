@@ -28,8 +28,10 @@ def export_session_variables(
         projekt_summary_data: dict
     ):
     output_dir = (
-        "pref/"
-        "session-preferences"
+        os.path.expanduser(
+        "~/"
+        ".LOGIK-PROJEKT-ARC"
+        )
     )
     output_filename = (
         "current_session-variables.json"

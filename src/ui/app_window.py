@@ -119,7 +119,7 @@ class Worker(QObject):
 
             # Now that the session file is updated, copy it to the user's chosen path
             if user_chosen_path:
-                source_file_path = "pref/session-preferences/current_session-template.json"
+                source_file_path = os.path.expanduser("~/.LOGIK-PROJEKT-ARC/current_session-template.json")
                 shutil.copy(source_file_path, user_chosen_path)
                 logging.info(f"Template also saved to: {user_chosen_path} (User-chosen path)")
 
@@ -513,7 +513,7 @@ class AppWindow(QWidget):
             logik_projekt_name = template_info_data.get("template_calculated_name", "untitled_template")
 
             # Define the source file path (the automatically generated template)
-            source_file_path = "pref/session-preferences/current_session-template.json"
+            source_file_path = os.path.expanduser("~/.LOGIK-PROJEKT-ARC/current_session-template.json")
 
             # Define the default target directory (~/Documents/LOGIK-PROJEKT-exported-templates)
             documents_path = os.path.expanduser("~/")

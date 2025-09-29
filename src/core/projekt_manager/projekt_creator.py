@@ -141,9 +141,11 @@ class ProjektCreator:
             "wiretap_IFFFS_project_EXAMPLE.xml"
         )
         output_xml_path = (
-            "pref/"
-            "session-preferences/"
+            os.path.expanduser(
+            "~/"
+            ".LOGIK-PROJEKT-ARC/"
             "current_session-wiretap_template.xml"
+            )
         )
         export_session_xml(
             config.__dict__,

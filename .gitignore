@@ -178,7 +178,6 @@ LOGIK-PROJEKT.desktop
 run_logikprojekt_linux.sh
 
 # Temporary session files
-pref/session-preferences/
 scratch
 /LOGIK-PROJEKT-2026.1.0.app/
 /install/logs/

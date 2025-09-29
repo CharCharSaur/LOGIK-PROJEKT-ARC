@@ -30,6 +30,7 @@ FLAME_VALUE_LISTS_DIR = FLAME_CFG_DIR + "flame-value-lists/"
 FLAME_TEMPLATES_DIR = FLAME_CFG_DIR + "flame-templates/"
 PREF_DIR = "pref/"
 SITE_PREFS_DIR = PREF_DIR + "site-prefs/"
+USER_DIR = os.path.expanduser("~")
 
 
 class GetApplicationPaths:
@@ -93,8 +94,8 @@ class GetApplicationPaths:
         "session-logs"
     )
     SESSION_PREFERENCES_DIR = (
-        PREF_DIR +
-        "session-preferences"
+        USER_DIR +
+        ".LOGIK-PROJEKT-ARC"
     )
     SHARED_PRESETS_DIR = (
         FLAME_CFG_DIR +

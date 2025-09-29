@@ -130,7 +130,7 @@ def export_logik_projekt_template(
     }
 
     # Define the output path
-    output_dir = "pref/session-preferences"
+    output_dir = os.path.expanduser("~/.LOGIK-PROJEKT-ARC")
     output_filename = "current_session-template.json"
     output_path = os.path.join(output_dir, output_filename)
 
