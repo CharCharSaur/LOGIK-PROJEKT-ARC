@@ -30,7 +30,7 @@ FLAME_VALUE_LISTS_DIR = FLAME_CFG_DIR + "flame-value-lists/"
 FLAME_TEMPLATES_DIR = FLAME_CFG_DIR + "flame-templates/"
 PREF_DIR = "pref/"
 SITE_PREFS_DIR = PREF_DIR + "site-prefs/"
-USER_DIR = os.path.expanduser("~")
+USER_DIR = f"{os.path.expanduser('~')}/"
 
 
 class GetApplicationPaths:
