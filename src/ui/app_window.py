@@ -31,7 +31,7 @@ from PySide6.QtCore import (
 from PySide6.QtWidgets import (
     QWidget,
     QMainWindow,
-    QVBoxLayout,
+   QVBoxLayout,
     QHBoxLayout,
     QFileDialog,
     QMessageBox

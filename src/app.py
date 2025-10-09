@@ -37,7 +37,9 @@ from src.ui.themes.modular_dark_theme import (
 from src.ui import (
     ui_config
 )
-
+from src.ui.utils.ui_scaling import (
+    scale_ui, get_scaling_factor, scale_qss
+)
 
 def main():
     # Configure root logger for console output
@@ -108,17 +110,8 @@ def main():
             else:
                 logging.info(f"File {tgt_file} already exists.")
 
-
     app = (
         QApplication(sys.argv)
-    )
-    app.setStyleSheet(
-        LogikProjektModularTheme.get_stylesheet()
-    )
-
-    main_window = AppWindow()
-    main_window.setWindowTitle(
-        "LOGIK-PROJEKT 2026.1"
     )
 
     # Center the window on the screen
@@ -127,22 +120,46 @@ def main():
     )
 
     if screen:
+        screen_width = screen.geometry().width()
+        scaling_factor = get_scaling_factor(ui_config, screen_width)
+
+    raw_qss = LogikProjektModularTheme.get_stylesheet()
+    if scaling_factor:
+        scaled_qss = scale_qss(raw_qss, scaling_factor)
+        app.setStyleSheet(scaled_qss)
+    else:
+        app.setStyleSheet(
+            LogikProjektModularTheme.get_stylesheet()
+        )
+
+    if scaling_factor:
+        ui_config_scaled = scale_ui(ui_config, scaling_factor)
+    else:
+        ui_config_scaled = ui_config
+
+    main_window = AppWindow()
+    main_window.setWindowTitle(
+        "LOGIK-PROJEKT 2026.1"
+    )
+
+    if screen:
+        logging.info("Screen geometry: %s", screen.geometry())
         screen_geometry = (
             screen.geometry()
         )
 
         x = (
-            screen_geometry.width() - ui_config.WINDOW_WIDTH
+            screen_geometry.width() - ui_config_scaled.WINDOW_WIDTH
         ) / 2
         y = (
-            screen_geometry.height() - ui_config.WINDOW_HEIGHT
+            screen_geometry.height() - ui_config_scaled.WINDOW_HEIGHT
         ) / 2
 
         main_window.setGeometry(
             int(x),
             int(y),
-            ui_config.WINDOW_WIDTH,
-            ui_config.WINDOW_HEIGHT
+            ui_config_scaled.WINDOW_WIDTH,
+            ui_config_scaled.WINDOW_HEIGHT
         )
     else:
         main_window.setGeometry(

@@ -81,6 +81,9 @@ PANEL_LAYOUT_SPACING = 4
 PANEL_LAYOUT_MARGINS = (0, 0, 0, 0)
 PANEL_PADDING = (0, 4, 0, 4)
 
+# Minimum threshold before scaling kicks in from screen height. Then scales UI by this value.
+TOLERANCE = 0.8
+
 
 # -------------------------------------------------------------------------- #
 
