@@ -20,7 +20,8 @@
 # Changelog:    Changelog at bottom of script.
 # -------------------------------------------------------------------------- #
 
-import json
+
+from src.core.utils.sysconfig_utils import resolve_sysconfig_path, load_syscfg
 from src.core.functions.get.get_application_paths import GetApplicationPaths
 
 
@@ -31,37 +32,19 @@ def get_sysconfig_flame_catalog_dir() -> str:
     Returns:
         Default catalog directory path string
     """
-    sysconfig_cfg_path = GetApplicationPaths.SYSCONFIG_CFG
+    sysconfig_cfg_path = resolve_sysconfig_path(GetApplicationPaths.SYSCONFIG_CFG)
     default_path = "<project home>/catalog"
 
-    try:
-        with open(sysconfig_cfg_path, 'r') as f:
-            config_data = json.load(f)
+    config_data = load_syscfg(sysconfig_cfg_path)
+    if not config_data:
+        return default_path
 
-        return (
-            config_data.get("configuration", {})
-            .get("settings", {})
-            .get("project_folders", {})
-            .get("default_catalog_dir", default_path)
-        )
-    except FileNotFoundError:
-        print(
-            f"Error: sysconfig.cfg not found at:"
-            f"{sysconfig_cfg_path}"
-        )
-        return default_path
-    except json.JSONDecodeError:
-        print(
-            f"Error: Could not decode JSON from:"
-            f"{sysconfig_cfg_path}"
-        )
-        return default_path
-    except Exception as e:
-        print(
-            f"Error loading default Flame catalog directory:"
-            f"{e}"
-        )
-        return default_path
+    return (
+        config_data.get("configuration", {})
+        .get("settings", {})
+        .get("project_folders", {})
+        .get("default_catalog_dir", default_path)
+    )
 
 
 # -------------------------------------------------------------------------- #
