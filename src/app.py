@@ -203,8 +203,6 @@ if __name__ == "__main__":
 # -------------------------------------------------------------------------- #
 # version:          2027.1
 # created:          2026-11-19
-# comments:         Updated version to 2027.1. Unverified compatibility with Autodesk Flame 2027.1.
-#                   I've tested in the past... no obvious issues. No code changes required.
-#                   Hopefully I'll remember to update this after I've tested.
-# TODO              Test in Flame 2027.1
+# comments:         Updated version to 2027.1.
+#                   Verified compatibility with Autodesk Flame 2027.1. No code changes required.
 # -------------------------------------------------------------------------- #
