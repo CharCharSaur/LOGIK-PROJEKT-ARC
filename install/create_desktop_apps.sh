@@ -18,7 +18,7 @@
 # Status:       Development
 # Type:         Utility
 # Created:      2024-01-19
-# Modified:     2025-01-29
+# Modified:     2026-11-19
 
 # Changelog:    Changelog at bottom of script.
 # -------------------------------------------------------------------------- #
@@ -67,7 +67,7 @@ app_name_sanitize=$(echo "$app_name" | tr -d '[:punct:]' | tr ' ' '_')
 app_name_lc=$(echo "$app_name_sanitize" | tr '[:upper:]' '[:lower:]')
 
 # Define the application version number
-app_version="2026.2.1"
+app_version="2027.1"
 
 # Define the macOS application name
 macos_app_name="${app_name}-${app_version}.app"
@@ -388,4 +388,12 @@ printf "\n%s\n" "$separator"
 # version:          2026.2.1
 # created:          2025-10-30
 # comments:         Updated version to 2026.2.1. Verified compatibility with Autodesk Flame 2026.2.1. No code changes required.
+# -------------------------------------------------------------------------- #
+
+# version:          2027.1
+# created:          2026-11-19
+# comments:         Updated version to 2027.1. Unverified compatibility with Autodesk Flame 2027.1.
+#                   I've tested in the past... no obvious issues. No code changes required.
+#                   Hopefully I'll remember to update this after I've tested.
+# TODO              Test in Flame 2027.1
 # -------------------------------------------------------------------------- #
