@@ -1,6 +1,12 @@
 {
   "PROJEKT Configurations": [
     {
+      "PROJEKT Configuration Name": "arc_com_FileSystemTemplate_v02-01",
+      "PROJEKT Filesystem Tree": "pref/site-prefs/custom-prefs/arc_com_FileSystemTemplate_v02-01/filesystem-tree.json",
+      "PROJEKT Flame Workspace": "pref/site-prefs/custom-prefs/arc_com_FileSystemTemplate_v02-01/flame-workspace.json",
+      "PROJEKT Flame Bookmarks": "pref/site-prefs/custom-prefs/arc_com_FileSystemTemplate_v02-01/cf_bookmarks.json"
+    },
+    {
       "PROJEKT Configuration Name": "arc_com_FileSystemTemplate_v01_02",
       "PROJEKT Filesystem Tree": "pref/site-prefs/custom-prefs/arc_com_FileSystemTemplate_v01_02/filesystem-tree.json",
       "PROJEKT Flame Workspace": "pref/site-prefs/custom-prefs/arc_com_FileSystemTemplate_v01_02/flame-workspace.json",
