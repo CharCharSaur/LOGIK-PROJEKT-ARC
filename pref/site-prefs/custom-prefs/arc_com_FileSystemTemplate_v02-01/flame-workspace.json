@@ -21,17 +21,17 @@
 					{
 						"type": "reel",
 						"name": "Conform_Sequences",
-						"colour": [0.448, 0.252, 0.252]
+						"colour": [0.45622152, 0.24987680, 0.31651199]
 					},
 					{
 						"type": "reel",
 						"name": "Published_Sequences",
-						"colour": [0.057, 0.383, 0.182]
+						"colour": [0.19148724, 0.36952823, 0.23370329]
 					},
 					{
 						"type": "reel",
 						"name": "Published_Versions",
-						"colour": [0.418, 0.262, 0.384]
+						"colour": [0.14609971, 0.34365355, 0.47115146]
 					}
 				]
 			},
@@ -44,7 +44,7 @@
 	{
 		"type": "library",
 		"name": "assets",
-		"colour": [0.057, 0.367, 0.383],
+		"colour": [0.38747088, 0.31485362, 0.09893159],
 		"tags": ["Custom"],
 		"expanded": true,
 		"children": [
@@ -103,7 +103,7 @@
 	{
 		"type": "library",
 		"name": "delivery",
-		"colour": [0.057, 0.383, 0.182],
+		"colour": [0.19148724, 0.36952823, 0.23370329],
 		"tags": ["Custom"],
 		"children": [
 			{
@@ -124,7 +124,7 @@
 	{
 		"type": "library",
 		"name": "media",
-		"colour": [0.296, 0.296, 0.464],
+		"colour": [0.00129587, 0.36671857, 0.41408890],
 		"tags": ["Custom"],
 		"children": [
 			{
@@ -186,7 +186,7 @@
 	{
 		"type": "library",
 		"name": "production",
-		"colour": [0.057, 0.367, 0.383],
+		"colour": [0.25929249, 0.31356936, 0.48888208],
 		"children": [
 			{
 				"type": "folder",
@@ -213,7 +213,7 @@
 	{
 		"type": "library",
 		"name": "shots",
-		"colour": [0.418, 0.262, 0.384],
+		"colour": [0.41585912, 0.26066940, 0.40180997],
 		"children": [
 			{
 				"type": "folder",
@@ -232,6 +232,6 @@
 	{
 		"type": "library",
 		"name": "desktops",
-		"colour": [0.448, 0.252, 0.252]
+		"colour": [0.46610048, 0.25667322, 0.22335762]
 	}
 ]
